@@ -6,7 +6,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
 # Path to input video file
-input_video = (r"C:\Users\A3MAX SOFTWARE TECH\Desktop\WORK\2. DATASCIENCE PROJECT\29. Mediapipe\kido moves_1.mp4")
+input_video = (r"D:\Video-215.mp4")
 
 # Initialize video capture
 cap = cv2.VideoCapture(input_video)
@@ -51,3 +51,4 @@ with mp_pose.Pose(
 # Release the video capture and close all windows
 cap.release()
 cv2.destroyAllWindows()
+
