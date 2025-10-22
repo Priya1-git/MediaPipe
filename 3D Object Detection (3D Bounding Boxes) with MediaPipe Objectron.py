@@ -19,7 +19,7 @@ def url_to_array(url):
     arr = cv2.cvtColor(arr, cv2.COLOR_BGR2RGB)
     return arr
 
-cup = "https://images.unsplash.com/photo-1509042239860-f550ce710b93"  # direct JPEG link
+cup = "https://images.unsplash.com/photo-1509042239860-f550ce710b93"   # direct JPEG link
 cup = url_to_array(cup)
 
 # ------> LETS INSTANTIATE AN OBJECTRON INSTANCE AND PROCESS() INPUT FUNCTION
@@ -56,3 +56,4 @@ fig, ax = plt.subplots(figsize=(10, 10))
 ax.imshow(annotated_image)
 ax.axis('off')
 plt.show()
+
