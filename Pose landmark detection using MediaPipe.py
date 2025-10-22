@@ -12,7 +12,7 @@ detector = mp_pose.Pose(
     enable_segmentation=True)
 
 # Step 2: Load the input image.
-image = cv2.imread(r"C:\Users\A3MAX SOFTWARE TECH\Desktop\WORK\2. DATASCIENCE PROJECT\29. Mediapipe\img2.jpeg")
+image = cv2.imread(r"D:\Pictures\Screenshots\Dog.png")
 
 # Step 3: Convert the image to RGB format and process it.
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -31,3 +31,4 @@ mp_drawing.draw_landmarks(
 plt.imshow(cv2.cvtColor(annotated_image, cv2.COLOR_BGR2RGB))
 plt.axis('off')
 plt.show()
+
